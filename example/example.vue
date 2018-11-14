@@ -10,6 +10,7 @@
         width: 100%;
         max-width: 500px;
         margin: 50px auto;
+        color: #333;
     }
     .my-panel {
         margin-bottom: 50px;
@@ -17,6 +18,28 @@
         position: relative;
         box-shadow: 2px 3px 4px rgba(0, 0, 0, .06);
     }
+
+    .desc{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .desc h1{
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .desc p{
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .desc a{
+        color: #09f;
+    }
+
 
     .hd {
         padding: 15px;
@@ -27,6 +50,13 @@
 <template>
 
     <div class="example">
+
+        <div class="desc">
+            <h1>ck-img-swipe</h1>
+            <p>基于 Vue2.x 开发的图片轮播组件。支持手机版PC版。完美支持 自动轮播、无限轮播、手势切换轮播、自适应高度、上一页下一页切换、索引指示、小圆点分页指示等常用功能。</p>
+
+            <a href="https://github.com/bebe9/ck-img-swipe" target="_blank">说明文档</a>
+        </div>
 
         <div class="my-panel">
             <div class="hd">基本用法,默认自动计算高度</div>
@@ -106,9 +136,7 @@
                 <p v-if="info">当前{{info.index}},共{{info.total}}张图片</p>
             </div>
         </div>
-        <div>
-            查看 <a href="https://github.com/bebe9/ck-img-swipe" target="_blank">参数配置</a>
-        </div>
+
     </div>
 </template>
 
