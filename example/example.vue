@@ -107,7 +107,7 @@
             </div>
         </div>
         <div>
-            参数配置 in README.md
+            查看 <a href="https://github.com/bebe9/ck-img-swipe" target="_blank">参数配置</a>
         </div>
     </div>
 </template>
