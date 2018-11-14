@@ -9,7 +9,7 @@ based on vue2.x
 
 [在线演示](https://bebe9.github.io/ck-img-swipe/)
 
-[说明文档](https://bebe9.github.io/ck-img-swipe/)
+[说明文档](https://github.com/bebe9/ck-img-swipe)
 
 ## Example
 
@@ -180,5 +180,3 @@ npm install -g webpack-cli
 npm i
 
 ```
-
-
