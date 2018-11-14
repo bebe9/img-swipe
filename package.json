@@ -1,19 +1,19 @@
 {
-  "name": "ck-img-swipe",
-  "version": "1.0.1",
+  "name": "img-swipe",
+  "version": "1.0.3",
   "description": "A touch slider for vue.js.",
-  "main": "dist/ck-img-swipe.js",
+  "main": "dist/img-swipe.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
     "remote-dev": "npm run dev --host",
-    "release": "standard-version & git push --follow-tags ck-img-swipe master & npm publish",
+    "release": "standard-version & git push --follow-tags img-swipe master & npm publish",
     "build": "webpack -p",
     "prepare": "npm run build",
     "build-example": "webpack --config ./webpack.example.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bebe9/ck-img-swipe.git"
+    "url": "https://github.com/bebe9/img-swipe.git"
   },
   "babel": {
     "presets": [

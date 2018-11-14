@@ -1,4 +1,4 @@
-# ck-img-swipe
+# img-swipe
 
 A flexible, excellent and smart img swipe component for pc and mobile.
 
@@ -7,9 +7,9 @@ based on vue2.x
 基于 Vue2.x 开发的图片轮播组件。支持手机版PC版。
 完美支持 自动轮播、无限轮播、手势切换轮播、自适应高度、上一页下一页切换、索引指示、小圆点分页指示等常用功能。
 
-[在线演示](https://bebe9.github.io/ck-img-swipe/)
+[在线演示](https://bebe9.github.io/img-swipe/)
 
-[说明文档](https://github.com/bebe9/ck-img-swipe)
+[说明文档](https://github.com/bebe9/img-swipe)
 
 ## Example
 
@@ -31,7 +31,7 @@ Import components to your project:
 Registe global component in main.js:
 
 ``` js
-import {ImgSwipe,ImgSwipeItem} from 'ck-img-swipe'
+import {ImgSwipe,ImgSwipeItem} from 'img-swipe'
 
 Vue.component('img-swipe', ImgSwipe);
 Vue.component('img-swipe-item', ImgSwipeItem);
@@ -40,7 +40,7 @@ Vue.component('img-swipe-item', ImgSwipeItem);
 Registe component in page:
 
 ``` js
-import {ImgSwipe,ImgSwipeItem} from 'ck-img-swipe'
+import {ImgSwipe,ImgSwipeItem} from 'img-swipe'
 
 export default {
   components: { ImgSwipe, ImgSwipeItem }

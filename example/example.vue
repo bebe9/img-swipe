@@ -56,10 +56,10 @@
     <div class="example">
 
         <div class="desc">
-            <h1>ck-img-swipe</h1>
+            <h1>img-swipe</h1>
             <p>基于 Vue2.x 开发的图片轮播组件。支持手机版PC版。完美支持 自动轮播、无限轮播、手势切换轮播、自适应高度、上一页下一页切换、索引指示、小圆点分页指示等常用功能。</p>
 
-            <a href="https://github.com/bebe9/ck-img-swipe" target="_blank">说明文档</a>
+            <a href="https://github.com/bebe9/img-swipe" target="_blank">说明文档</a>
         </div>
 
         <div class="my-panel">
