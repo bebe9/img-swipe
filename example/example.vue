@@ -3,7 +3,11 @@
         margin: 0;
         padding: 0;
     }
-    body{
+    body {
+        font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #333;
         background-color: #f9f9f9;
     }
     .example {
@@ -26,7 +30,7 @@
 
     .desc h1{
         color: #333;
-        font-size: 18px;
+        font-size: 28px;
         margin-bottom: 20px;
         font-weight: 500;
     }
